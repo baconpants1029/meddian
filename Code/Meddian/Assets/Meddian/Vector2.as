@@ -1,0 +1,1 @@
+﻿package  {		public class Vector2 {		public var x : Number;		public var y : Number;				public function Vector2(newX : Number, newY : Number) {			x = newX;			y = newY;		}	}	}

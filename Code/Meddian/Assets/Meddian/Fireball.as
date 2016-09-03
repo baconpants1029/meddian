@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.MovieClip;	import flash.events.Event;			public class Fireball extends MovieClip {		public var pause : Boolean = false;				public function Fireball() {			addEventListener(Event.ENTER_FRAME, tick);			width = 56;			height = 108.90;		}				function tick(e:Event) {			if (!pause) {				y += 2;			}		}	}	}

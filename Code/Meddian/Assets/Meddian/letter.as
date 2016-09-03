@@ -1,0 +1,1 @@
+﻿package {	import flash.display.MovieClip;	import flash.events.KeyboardEvent;	import flash.ui.Keyboard;	public class letter extends MovieClip	{		public function letter()		{		}	}}
